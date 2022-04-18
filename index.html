@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark margin navegar">
+        <a class="navbar-brand" href="#">            
+            <img src="img/Clock-icon.png" alt="ícone do relógio" width="50px">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#timer">TIMER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTATO</a>
+                </li>
+            </ul>            
+        </div>
+    </nav>
+    
+    <section id="timer">
+        <div class="container-fluid text-center margin contador">
+            <h1>00:00</h1>            
+        </div>
+
+        <div class="container-fluid text-center operator">
+            <div class="timerOperator">
+                <a class="navbar-brand" href="#">
+                    <img style="vertical-align:middle" src="img/PinClipart.com_subtraction-clip-art_1138924.png" alt="símbolo de subtrair" width="25" height="25">
+                </a>
+                <span style="display:inline-block; width: 10px"></span>
+                <span> 5 Minutes </span>
+                <span style="display:inline-block; width: 10px"></span>
+                <a class="navbar-brand" href="#">
+                    <img style="vertical-align:middle" src="img/PinClipart.com_add-clipart-to-photo_80460.png" alt="símbolo de adicionar" width="25" height="25">
+                </a>
+            </div>
+            <div class="timerOperator">
+                <a class="navbar-brand" href="#">
+                    <img style="vertical-align:middle" src="img/PinClipart.com_subtraction-clip-art_1138924.png" alt="símbolo de subtrair" width="25" height="25">
+                </a>
+                <span style="display:inline-block; width: 14px"></span>
+                <span> 1 Minute </span>
+                <span style="display:inline-block; width: 14px"></span>
+                <a class="navbar-brand" href="#">
+                    <img style="vertical-align:middle" src="img/PinClipart.com_add-clipart-to-photo_80460.png" alt="símbolo de adicionar" width="25" height="25">
+                </a>
+            </div>  
+            <div class="timerOperator">
+                <a class="navbar-brand" href="#">
+                    <img style="vertical-align:middle" src="img/PinClipart.com_subtraction-clip-art_1138924.png" alt="símbolo de subtrair" width="25" height="25">
+                </a>
+                <span style="display:inline-block; width: 5px"></span>
+                <span> 30 Seconds </span>
+                <span style="display:inline-block; width: 5px"></span>
+                <a class="navbar-brand" href="#">
+                    <img style="vertical-align:middle" src="img/PinClipart.com_add-clipart-to-photo_80460.png" alt="símbolo de adicionar" width="25" height="25">
+                </a>
+            </div> 
+        </div>
+        
+        <div class="container-fluid text-center buttons">   
+            <button type="button" class="btn btn-success">START TIMER</button>
+            <span style="display:inline-block; width: 20px"></span>
+            <button type="button" class="btn btn-danger">RESET TIMER</button>
+        </div>
+        
+        <footer class="container-fluid text-center bg-footer margin rodape">
+            <button type="button" class="btn btn-success botaoRodape" onClick="javascript:window.open('http://www.github.com/tbadaro', '_blank')">Desenvolvido por Tadeu Badaró</button>
+        </footer>
+
+    </section>
+</body>
+</html>

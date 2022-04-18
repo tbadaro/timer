@@ -1,0 +1,43 @@
+.navegar{
+    background-color: black;
+    padding: 8px;  
+    color: white;     
+}
+.icone{
+    padding: 5px;  
+}
+
+h1{          
+    font-family: Calibri;
+    font-size: 300px;
+    text-align: center;
+} 
+div.timerOperator{
+    line-height: 200%;
+    font-family: Calibri; 
+    font-size: 20px;
+    text-align: center;
+}
+.buttons{
+    padding: 30px;
+}
+.contador{
+    padding: 0%;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position: relative;
+    top: 15px;     
+}
+.navbar-brand {
+    margin-right: 0;
+  }
+  .botaoRodape{
+      border-radius: 20px;
+  }
+.operator{
+    position: relative;
+    top: -20px;  
+}
